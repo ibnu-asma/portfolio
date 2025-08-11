@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdulhamid Hayredin - Resume</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background: white;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #2c3e50;
+            padding-bottom: 20px;
+        }
+        
+        .name {
+            font-size: 32px;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 5px;
+        }
+        
+        .title {
+            font-size: 18px;
+            color: #27ae60;
+            margin-bottom: 15px;
+        }
+        
+        .contact {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            font-size: 14px;
+            color: #666;
+        }
+        
+        .section {
+            margin-bottom: 25px;
+        }
+        
+        .section-title {
+            font-size: 20px;
+            font-weight: bold;
+            color: #2c3e50;
+            border-bottom: 1px solid #bdc3c7;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+        
+        .experience-item, .education-item, .training-item {
+            margin-bottom: 20px;
+        }
+        
+        .job-title {
+            font-size: 16px;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        
+        .company {
+            font-size: 14px;
+            color: #27ae60;
+            margin-bottom: 5px;
+        }
+        
+        .duration {
+            font-size: 12px;
+            color: #666;
+            font-style: italic;
+            margin-bottom: 8px;
+        }
+        
+        .description {
+            font-size: 14px;
+            color: #555;
+            margin-left: 0;
+        }
+        
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+        
+        .skill-category {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 5px;
+            border-left: 4px solid #27ae60;
+        }
+        
+        .skill-category h4 {
+            color: #2c3e50;
+            margin-bottom: 8px;
+            font-size: 14px;
+        }
+        
+        .skill-list {
+            font-size: 13px;
+            color: #666;
+        }
+        
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 20px;
+        }
+        
+        .project {
+            border: 1px solid #e0e0e0;
+            padding: 15px;
+            border-radius: 5px;
+            background: #fafafa;
+        }
+        
+        .project-title {
+            font-size: 16px;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 8px;
+        }
+        
+        .project-tech {
+            font-size: 12px;
+            color: #27ae60;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+        
+        .project-desc {
+            font-size: 13px;
+            color: #555;
+        }
+        
+        @media print {
+            body {
+                padding: 20px;
+                font-size: 12px;
+            }
+            .name {
+                font-size: 28px;
+            }
+            .section-title {
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="name">ABDULHAMID HAYREDIN</div>
+        <div class="title">Senior Backend Developer</div>
+        <div class="contact">
+            <span>📧 <a href="mailto:abdulhamidhayredin94@gmail.com" style="color: #27ae60; text-decoration: none;">abdulhamidhayredin94@gmail.com</a></span>
+            <span>💼 <a href="https://www.linkedin.com/in/ibnu-asma/" target="_blank" style="color: #27ae60; text-decoration: none;">linkedin.com/in/ibnu-asma</a></span>
+            <span>🔗 <a href="https://github.com/ibnu-asma" target="_blank" style="color: #27ae60; text-decoration: none;">github.com/ibnu-asma</a></span>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">PROFESSIONAL SUMMARY</div>
+        <div class="description">
+            Passionate Senior Backend Developer with 3+ years of experience specializing in Laravel, .NET, and Django frameworks. 
+            Proven track record in building scalable enterprise applications including ERP systems and recruitment platforms. 
+            Currently enhancing algorithmic problem-solving skills through intensive training at A2SV (Africa to Silicon Valley). 
+            Focused on delivering high-performance applications with clean architecture and robust database design.
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">WORK EXPERIENCE</div>
+        
+        <div class="experience-item">
+            <div class="job-title">Senior Backend Developer</div>
+            <div class="company">NEO AI</div>
+            <div class="duration">2023 - Present</div>
+            <div class="description">
+                • Develop and maintain scalable backend systems using Laravel, .NET, and Django<br>
+                • Build enterprise-level applications powering business-critical operations<br>
+                • Implement RESTful APIs and integrate third-party systems<br>
+                • Optimize database performance and ensure system scalability
+            </div>
+        </div>
+
+        <div class="experience-item">
+            <div class="job-title">Web Application Tester</div>
+            <div class="company">INSA (Information Network Security Agency)</div>
+            <div class="duration">2024 - Present</div>
+            <div class="description">
+                • Conduct comprehensive quality assurance testing for web applications<br>
+                • Identify and document software bugs and security vulnerabilities<br>
+                • Collaborate with development teams to ensure application reliability<br>
+                • Perform functional, integration, and performance testing
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">EDUCATION & TRAINING</div>
+        
+        <div class="education-item">
+            <div class="job-title">Bachelor of Science in Computer Science</div>
+            <div class="company">Hawassa University</div>
+            <div class="duration">2019 - 2023</div>
+            <div class="description">
+                Focus: Software Engineering & Database Systems
+            </div>
+        </div>
+
+        <div class="training-item">
+            <div class="job-title">Data Structures & Algorithms Training</div>
+            <div class="company">A2SV (Africa to Silicon Valley)</div>
+            <div class="duration">2024 - Present (8 months completed)</div>
+            <div class="description">
+                • Intensive algorithmic problem-solving and competitive programming training<br>
+                • Advanced data structures implementation and optimization techniques<br>
+                • System design and software engineering best practices<br>
+                • Preparing for technical interviews at top-tier technology companies
+            </div>
+        </div>
+
+        <div class="education-item">
+            <div class="job-title">Professional Development</div>
+            <div class="company">Continuous Learning</div>
+            <div class="duration">2023 - Present</div>
+            <div class="description">
+                Laravel, .NET Core, Django Frameworks & Modern Backend Technologies
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">TECHNICAL SKILLS</div>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h4>Programming Languages</h4>
+                <div class="skill-list">Python, PHP, C#, JavaScript</div>
+            </div>
+            <div class="skill-category">
+                <h4>Frameworks & Libraries</h4>
+                <div class="skill-list">Laravel, ASP.NET Core, Django, Entity Framework</div>
+            </div>
+            <div class="skill-category">
+                <h4>Databases</h4>
+                <div class="skill-list">MySQL, SQL Server, PostgreSQL</div>
+            </div>
+            <div class="skill-category">
+                <h4>Tools & Technologies</h4>
+                <div class="skill-list">Git, Docker, REST APIs, React, HTML/CSS</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">KEY PROJECTS</div>
+        <div class="projects">
+            <div class="project">
+                <div class="project-title">Enterprise Resource Planning (ERP) System</div>
+                <div class="project-tech">Laravel • PHP • MySQL • React</div>
+                <div class="project-desc">
+                    Comprehensive ERP system featuring inventory management, financial tracking, and multi-tenant architecture. 
+                    Includes 15+ integrated modules with real-time reporting and RESTful API design for scalable business operations.
+                </div>
+            </div>
+            
+            <div class="project">
+                <div class="project-title">Recruitment Agency Platform</div>
+                <div class="project-tech">Laravel • PHP • MySQL • React</div>
+                <div class="project-desc">
+                    Full-stack recruitment platform with candidate tracking, algorithm-based job matching, and automated workflow management. 
+                    Features multi-platform integration and real-time analytics for recruitment agencies.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">ACHIEVEMENTS & HIGHLIGHTS</div>
+        <div class="description">
+            • Finalist at Fyda Hackathon (August 2025) with eMedId - Electronic Medical ID platform integrating with Fayda national ID for secure, portable health records with emergency access<br>
+            • Successfully completed 8 months of intensive algorithmic training at A2SV<br>
+            • Built and deployed multiple enterprise-level applications serving real business needs<br>
+            • Expertise in both government (INSA) and private sector (NEO AI) environments<br>
+            • Strong foundation in software engineering principles and database optimization<br>
+            • Active contributor to open-source projects and continuous learner of emerging technologies
+        </div>
+    </div>
+</body>
+</html>
