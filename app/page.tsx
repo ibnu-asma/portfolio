@@ -159,13 +159,13 @@ const InteractiveTerminal = () => {
   const [input, setInput] = useState("")
   const [history, setHistory] = useState([
     "$ whoami",
-    "Abdulhamid Hayredin - Senior Backend Developer @ NEO AI",
+    "Abdulhamid Hayredin - Senior Backend Developer @ A2SV @RateEat",
     "$ _",
   ])
 
   const commands = {
     help: "Available commands: whoami, skills, projects, contact, clear",
-    whoami: "Abdulhamid Hayredin - Senior Backend Developer @ NEO AI",
+    whoami: "Abdulhamid Hayredin - Senior Backend Developer @ A2SV @RateEat",
     skills: "Laravel, .NET, Django, PHP, C#, Python",
     projects: "ERP System, Recruitment Agency Platform",
     contact: "Email: abdulhamidhayredin94@gmail.com | LinkedIn: /in/ibnu-asma | GitHub: /ibnu-asma",
@@ -465,7 +465,7 @@ export default function Portfolio() {
               <h1 className="text-4xl sm:text-6xl font-bold text-foreground mb-6">
                 <span className="block">{useTypewriter("Abdulhamid Hayredin", 80)}</span>
                 <span className="block text-primary text-2xl sm:text-3xl font-medium mt-2">
-                  {useDelayedTypewriter("Senior Backend Developer at NEO AI", 1500, 60)}
+                  {useDelayedTypewriter("Senior Backend Developer at A2SV @RateEat", 1500, 60)}
                 </span>
               </h1>
               <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
@@ -567,13 +567,13 @@ export default function Portfolio() {
             <div>
               <p className="text-muted-foreground text-lg leading-relaxed mb-6">
                 With over 3 years of experience in backend development, I specialize in building robust enterprise 
-                applications using Laravel, .NET, and Django. At NEO AI, I develop and maintain scalable backend 
-                systems that power business-critical applications and enterprise solutions.
+                applications using Laravel, .NET, Django, and Node.js. At A2SV @RateEat, I develop and maintain 
+                scalable backend systems for restaurant discovery platforms and enterprise solutions.
               </p>
               <p className="text-muted-foreground text-lg leading-relaxed">
-                My expertise includes API development, database optimization, and system integration. I'm passionate 
-                about clean code architecture, performance optimization, and delivering reliable solutions that meet 
-                complex business requirements.
+                My expertise spans API development, database optimization, and system integration across multiple 
+                technologies including PHP, Python, C#, JavaScript, and TypeScript. I'm passionate about clean 
+                architecture, performance optimization, and delivering reliable solutions for complex business needs.
               </p>
             </div>
             <div>
@@ -582,22 +582,22 @@ export default function Portfolio() {
                 <div className="flex items-start">
                   <div className="w-2 h-2 bg-primary rounded-full mt-2 mr-3"></div>
                   <div>
-                    <h4 className="font-medium text-foreground">Enterprise Application Development</h4>
-                    <p className="text-muted-foreground text-sm">Building scalable ERP and business management systems</p>
+                    <h4 className="font-medium text-foreground">Restaurant Discovery Platform</h4>
+                    <p className="text-muted-foreground text-sm">Building scalable backend for RateEat platform with advanced search and rating systems</p>
                   </div>
                 </div>
                 <div className="flex items-start">
                   <div className="w-2 h-2 bg-success rounded-full mt-2 mr-3"></div>
                   <div>
-                    <h4 className="font-medium text-foreground">API Development & Integration</h4>
-                    <p className="text-muted-foreground text-sm">RESTful APIs and third-party system integrations</p>
+                    <h4 className="font-medium text-foreground">Full-Stack API Development</h4>
+                    <p className="text-muted-foreground text-sm">RESTful APIs with Laravel, .NET, Django, Node.js/Express.js</p>
                   </div>
                 </div>
                 <div className="flex items-start">
                   <div className="w-2 h-2 bg-secondary rounded-full mt-2 mr-3"></div>
                   <div>
                     <h4 className="font-medium text-foreground">Database Design & Optimization</h4>
-                    <p className="text-muted-foreground text-sm">MySQL, SQL Server, and PostgreSQL performance tuning</p>
+                    <p className="text-muted-foreground text-sm">MySQL, PostgreSQL, Redis performance tuning and caching</p>
                   </div>
                 </div>
               </div>
@@ -645,12 +645,19 @@ export default function Portfolio() {
               <div className="space-y-4">
                 <div className="border-l-2 border-primary pl-4">
                   <h4 className="font-semibold text-foreground">Senior Backend Developer</h4>
-                  <p className="text-muted-foreground">NEO AI • 2023-Present</p>
+                  <p className="text-muted-foreground">A2SV @RateEat • 2024-Present</p>
                   <p className="text-sm text-muted-foreground mt-1">
-                    Developing scalable backend systems with Laravel, .NET, and Django
+                    Developing restaurant discovery platform with Node.js, Express.js, and TypeScript
                   </p>
                 </div>
                 <div className="border-l-2 border-success pl-4">
+                  <h4 className="font-semibold text-foreground">A2SV Alumni Training Program</h4>
+                  <p className="text-muted-foreground">Africa to Silicon Valley • 2024</p>
+                  <p className="text-sm text-muted-foreground mt-1">
+                    8-month intensive training in competitive programming and software engineering
+                  </p>
+                </div>
+                <div className="border-l-2 border-secondary pl-4">
                   <h4 className="font-semibold text-foreground">Web Application Tester</h4>
                   <p className="text-muted-foreground">INSA • 2024-Present</p>
                   <p className="text-sm text-muted-foreground mt-1">
